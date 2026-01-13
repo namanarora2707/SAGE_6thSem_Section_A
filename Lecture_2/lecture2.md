@@ -13,7 +13,7 @@
 
     -->Given two hourglasses of 4 minutes and 7 minutes, the task is to measure 9 minutes
 
-6. Two questions are left still it will availav=ble in pdf
+6. Two questions are left still it will available in pdf
     -->Four people — A, B, C, and D — need to cross a bridge at night.They have only one torch, and the bridge is too dangerous to cross without it.At most two people can cross at a time, and when two people cross together, they must move at the slower person’s speed.
     The time each person takes to cross the bridge is as follows:
     A → 1 minute
