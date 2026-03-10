@@ -13,6 +13,11 @@ void sortColors(vector<int>& nums) {
     return;
 }
 int main() {
-    
+    vector<int> nums = {2,0,2,1,1,0};
+    sortColors(nums);
+    for(int val : nums) {
+        cout << val << " ";
+    }
+    cout << endl;
     return 0;
 }

@@ -5,24 +5,27 @@ int main() {
     int array[][4]={
         {1,2,3,4},
         {5,6,7,8},
-        {9,10,11,12}
+        {9,10,11,12},
+        {13,14,15,16}
     };
-    int g=sizeof(array)/(sizeof(int)*sizeof(int));
-    int h=sizeof(array[0])/sizeof(int);
-    int a[2][3]={1,2,3,4,5,6};
-    int m,n;
-    cin>>m>>n;
-    int b[m][n]={};
+    int row=sizeof(array)/(sizeof(int)*sizeof(int));
+    int col=sizeof(array[0])/sizeof(int);
+    cout<<row<<endl;
+    cout<<col<<endl;
+    int b[2][3];
+    int c[3][3]={1,2,3,4,5,6,7,8,9};
+    int d[3][4]={};
+    int n,m;
+    cin>>n>>m;
+    int e[m][n];
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
-            cout<<b[i][j]<<" ";
+            cin>>e[i][j];
         }
-        cout<<endl;
     }
-    cout<<g<<endl;
-    cout<<h<<endl;
-    for(int i=0;i<g;i++){
-        for(int j=0;j<h;j++){
+    // traverse yah print
+    for(int i=0;i<row;i++){
+        for(int j=0;j<col;j++){
             cout<<array[i][j]<<" ";
         }
         cout<<endl;

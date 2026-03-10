@@ -1,7 +1,7 @@
 #include <iostream>
 #include<climits>
 using namespace std;
-// min element
+
 int main() {
     int n;
     cin>>n;

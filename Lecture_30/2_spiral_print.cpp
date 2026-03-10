@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int r,c;
     cin>>r>>c;
-    vector<vector<int>> arr(r,vector<int> (c));
+    vector<vector<int>> arr(r,vector<int>(c));
     for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
             cin>>arr[i][j];
@@ -20,8 +20,7 @@ int main() {
         }
         top++;
         //top to bottom
-        for(int i=top;i<=bottom;i++)
-        {
+        for(int i=top;i<=bottom;i++){
             //right
             cout<<arr[i][right]<<" ";
         }
@@ -29,7 +28,6 @@ int main() {
         if(top<=bottom){
             //right to left
             for(int i=right;i>=left;i--){
-                //bottom
                 cout<<arr[bottom][i]<<" ";
             }
             bottom--;
@@ -39,8 +37,9 @@ int main() {
             for(int i=bottom;i>=top;i--){
                 cout<<arr[i][left]<<" ";
             }
-            left++;
         }
+        left++;
     }
+
     return 0;
 }

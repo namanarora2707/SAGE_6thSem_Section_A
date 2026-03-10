@@ -19,8 +19,6 @@ int startStation(vector<int> gas,vector<int> cost){
     return -1;
 }
 int main() {
-    vector<int> gas = {1,2,3,4,5};
-    vector<int> cost = {3,4,5,1,2};
-    cout << startStation(gas, cost) << endl;
+    
     return 0;
 }

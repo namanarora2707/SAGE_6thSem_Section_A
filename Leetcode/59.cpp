@@ -49,6 +49,13 @@ vector<vector<int>> generateMatrix(int n)
 }
 int main()
 {
-
+    int n = 3;
+    vector<vector<int>> result = generateMatrix(n);
+    for(auto row : result) {
+        for(int val : row) {
+            cout << val << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }

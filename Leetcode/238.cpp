@@ -22,7 +22,11 @@ vector<int> productExceptSelf(vector<int>& nums) {
 
 }
 int main() {
-    vector<int> nums={1,2,3,4};
-    vector<int> ans=productExceptSelf(ans);
+    vector<int> nums = {1,2,3,4};
+    vector<int> ans = productExceptSelf(nums);
+    for(int val : ans) {
+        cout << val << " ";
+    }
+    cout << endl;
     return 0;
 }

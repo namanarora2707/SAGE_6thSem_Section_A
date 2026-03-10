@@ -1,7 +1,7 @@
 #include <iostream>
 #include<climits>
 using namespace std;
-// sum of all elements
+
 int main() {
     int n;
     cin>>n;

@@ -37,6 +37,11 @@ vector<int> spiralOrder(vector<vector<int>>& arr) {
     return ans;
 }
 int main() {
-    
+    vector<vector<int>> matrix = {{1,2,3},{4,5,6},{7,8,9}};
+    vector<int> result = spiralOrder(matrix);
+    for(int val : result) {
+        cout << val << " ";
+    }
+    cout << endl;
     return 0;
 }

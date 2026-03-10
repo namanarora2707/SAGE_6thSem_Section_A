@@ -1,7 +1,7 @@
 #include <iostream>
 #include<climits>
 using namespace std;
-// max element
+
 int main() {
     int n;
     cin>>n;

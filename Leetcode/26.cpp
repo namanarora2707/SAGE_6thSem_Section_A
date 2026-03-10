@@ -12,7 +12,13 @@ int removeDuplicates(vector<int>& nums) {
     return unique+1;
 }
 int main() {
-    vector<int> nums={1,1,2,2,2,3,3,4,4,5};
-    cout<<removeDuplicates(nums)<<endl;
+    vector<int> nums = {1,1,2,2,2,3,3,4,4,5};
+    int uniqueCount = removeDuplicates(nums);
+    cout << "Unique count: " << uniqueCount << endl;
+    cout << "Array: ";
+    for(int i = 0; i < uniqueCount; i++) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
     return 0;
 }

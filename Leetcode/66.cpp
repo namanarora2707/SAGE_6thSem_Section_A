@@ -13,7 +13,11 @@ vector<int> plusOne(vector<int>& digits) {
         return digits;
     }
 int main() {
-    vector<int> digits={1,2,3};
-    vector<int> a=plusOne(digits);
+    vector<int> digits = {1,2,3};
+    vector<int> result = plusOne(digits);
+    for(int val : result) {
+        cout << val << " ";
+    }
+    cout << endl;
     return 0;
 }

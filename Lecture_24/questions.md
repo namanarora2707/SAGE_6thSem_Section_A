@@ -1,4 +1,4 @@
 Leetcode Questions
 
---> 202
---> 877
+--> 202 - Happy Number
+--> 877 - Stone Game
